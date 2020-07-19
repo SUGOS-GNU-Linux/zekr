@@ -1,0 +1,7 @@
+Zekr adalah aplikasi lama yang harus disesuaikan dengan sistem operasi dari bionic
+masalahnya adalah versi yang digunakan zekr adalah versi 7 sedangkan yang di SUGOS adalah versi 11
+
+solusi pertama :
+apt-get install lsb-core
+apt-get install default-jdk
+apt-get install default-jre

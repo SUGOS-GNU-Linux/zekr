@@ -5,3 +5,5 @@ solusi pertama :
 apt-get install lsb-core
 apt-get install default-jdk
 apt-get install default-jre
+ mengulang dari berbeda paket
+

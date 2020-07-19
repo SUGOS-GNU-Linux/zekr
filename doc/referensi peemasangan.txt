@@ -1,0 +1,43 @@
+
+    Di ubuntu 18.04 belum bisa langsung apt install zekr, jadi ini caranya :
+
+– add-apt-repository ppa:webupd8team/java
+apt install oracle-java8-set-default
+(jangan pakai oracle java10, karena masih ada error ketika running zekr nya)
+
+– cek java instalasi
+java -version
+javac -version
+
+– download dan extract Zekr 1.1.0 for Linux x64 (7.6MB)
+http://zekr.org/download.html
+
+jalankan zekr.sh (jangan lupa chmod 755 🙂 )
+
+– kalau ada error, coba jalankan ini :
+apt-get install libwebkitgtk-1.0-0
+apt-get install libjlayer-java
+
+– semangat (soalnya di tempat saya sudah jalan zekr nya) 🙂
+
+ 
+
+    Dan ini cara membuat shortcut (add to favorite) nya :
+
+https://www.maketecheasier.com/create-desktop-file-linux/
+
+cat /usr/share/applications/zekr.desktop
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Exec=/home/muhammad/Downloads/zekr_ubuntu18/zekr-1.1.0-linux_64/zekr/zekr.sh
+Name=Zekr
+Icon=/home/muhammad/Downloads/zekr_ubuntu18/zekr-1.1.0-linux_64/zekr/res/image/icon/open-book-256.png
+
+3. In some cases, you won’t see the “Run” option in the menu. This is often because the executable is a text file. You can get around this by executing it via the terminal or, if you use GNOME, click the Files menu in the top bar, and select “Preferences”.
+
+4. Select the “Behavior” tab and choose the “Run them” option under “Executable Text Files”. Now the “Run” option should appear when you right-click the executable text file.
+
+ Sumber : https://halilintar8.wordpress.com/2018/09/01/ubuntu-18-04-install-zekr/

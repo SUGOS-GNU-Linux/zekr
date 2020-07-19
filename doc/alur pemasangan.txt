@@ -2,5 +2,5 @@
 2. Installasi Dependency Paketnya
 3. Uji Coba di Host sistem
 4. Pemasangan ke SUGOS root dengan chroot
-5. Uji di SUGOS secara live
+5. Uji di SUGOS secara live dengan Virtual
 6. Selesai
